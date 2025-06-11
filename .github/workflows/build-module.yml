@@ -12,11 +12,11 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.5"
+          - tag: "24.10.1"
             pkgarch: arm_cortex-a9_vfpv3-d16
             target: mvebu
             subtarget: cortexa9
-            vermagic: "fee90719398eed2badb627b27170f906"
+            vermagic: "61475e4a70aee1a9b3116d1b382dbe4f-r1"
 
     steps:
       - uses: actions/checkout@v4
